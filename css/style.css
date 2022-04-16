@@ -416,3 +416,27 @@ h3, p {
         width: 100%;
     }
 }
+
+/* footer  */
+
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    box-shadow: 2px 0 10px  rgba(18, 26, 21, 0.857);
+    background-color: rgba(42, 38, 38, 0.857);
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home {
+    color: wheat;
+}

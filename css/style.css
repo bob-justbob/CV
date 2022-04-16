@@ -218,6 +218,9 @@ h3, p {
     background-color: rgba(39, 89, 58, 0.857);
 
 }
+.education h2 {
+    padding-bottom: 2vh;
+}
 
 
 @media (max-width: 1000px){
@@ -228,6 +231,54 @@ h3, p {
 
 @media (max-width: 946px){
     .education {
+        width: 100%;
+    }
+}
+
+
+/* skill */
+
+.skill {
+    width: 50%;
+    box-shadow: 2px 0 10px  rgba(18, 26, 21, 0.857);
+    padding: 10vh 15vh;
+    margin: 10vh 0;
+    background-color: rgba(39, 89, 58, 0.857);
+
+}
+
+.skill h2 {
+    padding-bottom: 2vh;
+}
+.skill p {
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+
+@media (max-width: 1300px){
+    .skill {
+        width: 80%;
+    }
+}
+
+@media (max-width: 934px){
+    .skill {
         width: 100%;
     }
 }

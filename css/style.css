@@ -8,6 +8,11 @@
 .body {
     width: 100%;
 }
+
+a {
+    color: green;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -74,6 +79,8 @@ nav ul li a:hover {
     padding: 5vh;
     box-shadow: 2px 0 10px  rgba(18, 26, 21, 0.857);
     margin-bottom: 5vh;
+    background-color: rgba(39, 89, 58, 0.857);
+
 }
 .profile h1 {
     font-size: 55px;    
@@ -149,6 +156,7 @@ nav ul li a:hover {
     box-shadow: 2px 0 10px  rgba(18, 26, 21, 0.857);
     padding: 10vh 15vh;
     margin: 10vh 0;
+    background-color: rgba(39, 89, 58, 0.857);
 }
 
 h2 {
@@ -156,7 +164,7 @@ h2 {
 }
 
 h3, p {
-    color: rgb(188, 185, 180);
+    color: rgb(220, 220, 219);
 }
 
 .about h2 {
@@ -197,5 +205,29 @@ h3, p {
         line-height: 20px;
         padding-bottom: 2vh;
         letter-spacing: 1px;
+    }
+}
+
+/* education */
+
+.education {
+    width: 50%;
+    box-shadow: 2px 0 10px  rgba(18, 26, 21, 0.857);
+    padding: 10vh 15vh;
+    margin: 10vh 0;
+    background-color: rgba(39, 89, 58, 0.857);
+
+}
+
+
+@media (max-width: 1000px){
+    .education {
+        width: 70%;
+    }
+}
+
+@media (max-width: 946px){
+    .education {
+        width: 100%;
     }
 }
